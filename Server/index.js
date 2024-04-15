@@ -63,6 +63,7 @@ io.on("connection", (socket) => {
   // console.log("leaveroom ",data);
   const {username,room}=data
   socket.leave(room);
+  //updating the userlist of the current room
 let updated_users=users[room].filter((item)=>item!=username);
   io.to(room).emit("userleft",username);
   io.to(room).emit("userlist",updated_users)

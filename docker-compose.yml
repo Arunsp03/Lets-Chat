@@ -1,0 +1,16 @@
+version: '1'
+
+services:
+  frontend:
+    build:
+      context: ./app
+      dockerfile: dockerfile
+    ports:
+      - "3000:3000"  # Assuming your frontend listens on port 3000
+  backend:
+    build:
+      context: ./Server
+      dockerfile: dockerfile
+    ports:
+      - "8080:8080"  # Assuming your backend listens on port 5000
+    
