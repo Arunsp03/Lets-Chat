@@ -1,0 +1,45 @@
+.participants{
+  
+    background-color: black;
+    width: 15vw;
+  color: white;
+
+  display: flex;
+  align-items: center;
+ 
+  flex-direction: column;
+  
+    text-align: center;
+    overflow: scroll;
+    padding: 1rem;
+}
+.participant-header{
+  padding: 0%;
+}
+
+.Participant{
+  text-align: center;
+  font-size: 20px;
+  padding: 0;
+  font-weight: bolder;
+}
+.leave-room-btn{
+  position: absolute;
+  background-color: red;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
+.leave-room-btn:hover{
+background-color: black;
+border: none;
+color: aliceblue;
+}
+.User-info{
+  font-weight: bold;
+  margin-top: 1.3rem;
+}
