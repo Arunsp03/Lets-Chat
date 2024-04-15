@@ -29,7 +29,7 @@ io.on("connection", (socket) => {
  //entering a room
 
  socket.on("roomdetails",(data)=>{
-  console.log("roomdata",data);
+  // console.log("roomdata",data);
   const{username,room,storedroom}=data;
   socket.join(room)
   
