@@ -1,4 +1,4 @@
-Chat application made using React.js,Express.js and Socket.io : 
+<h1>Chat application made using React.js,Express.js and Socket.io :</h1> 
 
 ![image](https://github.com/Arunsp03/Lets-Chat/assets/115410640/2e2fa477-b66f-4b8c-81b7-ba3d89527021)
 
